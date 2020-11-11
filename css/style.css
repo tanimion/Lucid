@@ -99,3 +99,380 @@ header {
   background-color: #008ed6;
   border: 1px solid #008ed6;
 }
+
+.feature {
+}
+
+.overview {
+}
+
+.overview p,
+.pricing-content p,
+.card-content p {
+  color: #6bb0e1;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.overview h1,
+.detail h1 {
+  font-size: 35px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.overview h1::before {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  left: 49%;
+  bottom: 0;
+  transform: translateX(-30px);
+  transition: 0.5s all ease-in-out;
+}
+
+.overview h1::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  right: 49%;
+  bottom: 0;
+  transform: translateX(23px);
+  transition: 0.5s all ease-in-out;
+}
+
+.feature:hover .overview h1::before {
+  width: 30px;
+}
+
+.feature:hover .overview h1::after {
+  width: 30px;
+}
+
+.overview-content {
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  border: 3px solid #f0f0f0;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  margin: auto;
+  color: #008ed6;
+  font-size: 25px;
+}
+
+.overview-content h4 {
+  padding: 20px 0;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.overview-content p {
+  color: #b8b8b8;
+  font-size: 17px;
+}
+
+hr {
+  padding-bottom: 40px;
+}
+
+.device {
+  padding: 30px 0;
+}
+
+.detail h1::before {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* transform: translateX(-30px); */
+  transition: 0.5s all ease-in-out;
+}
+
+.detail h1::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  right: 92%;
+  bottom: 0;
+  transform: translateX(23px);
+  transition: 0.5s all ease-in-out;
+}
+
+.device:hover .detail h1::before {
+  width: 30px;
+}
+
+.device:hover .detail h1::after {
+  width: 30px;
+}
+
+.detail span {
+  color: #6bb0e1;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.detail p {
+  color: #cdcdcd;
+  font-size: 17px;
+  padding: 20px 0;
+}
+
+.detail ul {
+  list-style: none;
+}
+
+.detail ul li {
+  margin: 10px 0;
+}
+
+.detail ul li i {
+  margin-right: 10px;
+  color: #6bb0e1;
+}
+
+.customize {
+  background: #f2f2f2;
+  padding: 40px 0;
+}
+
+.customize:hover .detail h1::before {
+  width: 30px;
+}
+
+.customize:hover .detail h1::after {
+  width: 30px;
+}
+
+.pricing {
+  background-image: url(../images/pricing-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.pricing-content h1 {
+  font-size: 35px;
+  position: relative;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.pricing-content h1::before {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  left: 49%;
+  bottom: 0;
+  transform: translateX(-30px);
+  transition: 0.5s all ease-in-out;
+}
+
+.pricing-content h1::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  right: 49%;
+  bottom: 0;
+  transform: translateX(23px);
+  transition: 0.5s all ease-in-out;
+}
+
+.pricing:hover .pricing-content h1::before {
+  width: 30px;
+}
+
+.pricing:hover .pricing-content h1::after {
+  width: 30px;
+}
+
+.pricing-description {
+  padding: 20px 0;
+}
+
+.pricing-description p {
+  color: #fff;
+}
+
+.client {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.client img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -16px;
+}
+
+.client-detail {
+  color: #fff;
+  display: inline-block;
+}
+
+.client-detail h6 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.client-detail h5 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.like {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.like h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.like h1 span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.card {
+  padding: 30px 0;
+}
+
+.card-content h1 {
+  font-size: 35px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.card-content h1::before {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  left: 49%;
+  bottom: 0;
+  transform: translateX(-30px);
+  transition: 0.5s all ease-in-out;
+}
+
+.card-content h1::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  background-color: #008ed6;
+  position: absolute;
+  right: 49%;
+  bottom: 0;
+  transform: translateX(23px);
+  transition: 0.5s all ease-in-out;
+}
+
+.card:hover .card-content h1::before {
+  width: 30px;
+}
+
+.card:hover .card-content h1::after {
+  width: 30px;
+}
+
+.card-detail {
+  padding: 10px 0;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  margin: 0 3px;
+}
+
+.card-detail h4 {
+  text-transform: uppercase;
+  padding: 22px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 0;
+}
+
+.card-detail h1 {
+  padding-top: 20px;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.card-detail h1 sup {
+  font-size: 30px;
+}
+
+.card-detail h6 {
+  font-size: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 32px;
+  color: #999999;
+}
+
+.card-detail p {
+  padding: 20px 0;
+  color: #999999;
+}
+
+.card-detail a {
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+
+.btn-order {
+  color: #008ed6;
+  border: 1px solid #e0e0e0;
+  font-size: 15px;
+}
+
+.btn-order:hover {
+  color: #fff;
+  background-color: #008ed6;
+  border: 1px solid #008ed6;
+}
+
+.card-detail:hover h4 {
+  color: #008ed6;
+  transition: 0.7s all ease-in-out;
+}
+
+.card-detail:hover h1 {
+  background-color: #008ed6;
+  color: #fff;
+  transition: 0.7s all ease-in-out;
+}
+
+.card-detail:hover h6 {
+  background-color: #008ed6;
+  color: #99c5e7;
+  transition: 0.7s all ease-in-out;
+}
+
+.card-detail:hover a {
+  background-color: #008ed6;
+  color: #fff;
+  transition: 0.7s all ease-in-out;
+}
