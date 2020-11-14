@@ -476,3 +476,56 @@ hr {
   color: #fff;
   transition: 0.7s all ease-in-out;
 }
+
+.contact {
+  background-color: #ededed;
+}
+
+.contact:hover .card-content h1::before {
+  width: 30px;
+}
+
+.contact:hover .card-content h1::after {
+  width: 30px;
+}
+
+.form {
+  background: black;
+  width: 70%;
+  margin: auto;
+  padding: 30px 30px;
+}
+
+.form-control {
+  background: transparent;
+  border: 1px solid #606062;
+}
+
+.form-detail {
+  background-color: #ededed;
+}
+
+footer {
+  background: black;
+}
+
+.footer {
+  margin: auto;
+  padding: 20px 0;
+}
+
+.footer i {
+  font-size: 30px;
+  transition: 0.5s all ease-in-out;
+  margin: 0 10px;
+}
+
+.footer i:hover {
+  color: #008ed6;
+}
+
+.footer p {
+  font-size: 12px;
+  padding-top: 10px;
+  font-weight: 700;
+}
